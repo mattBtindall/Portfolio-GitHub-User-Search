@@ -49,12 +49,13 @@ body {
 .suggestion-list {
   width: 100%;
   text-align: left;
-  background: rgba(0,0,0,0.1);;
+  background: rgba(0,0,0,0.4);;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   overflow: hidden;
   transition: max-height .3s ease-in-out;
   max-height: 1000px;
+  position: absolute;
 }
 
 .suggestion-list.collapsed {
